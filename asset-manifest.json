@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/shashankofficialgupta/Flipr.git/static/css/main.a434d7a9.chunk.css",
+    "main.js": "/shashankofficialgupta/Flipr.git/static/js/main.c5cecd9d.chunk.js",
+    "main.js.map": "/shashankofficialgupta/Flipr.git/static/js/main.c5cecd9d.chunk.js.map",
+    "runtime-main.js": "/shashankofficialgupta/Flipr.git/static/js/runtime-main.31bc09a1.js",
+    "runtime-main.js.map": "/shashankofficialgupta/Flipr.git/static/js/runtime-main.31bc09a1.js.map",
+    "static/js/2.ba7de0bf.chunk.js": "/shashankofficialgupta/Flipr.git/static/js/2.ba7de0bf.chunk.js",
+    "static/js/2.ba7de0bf.chunk.js.map": "/shashankofficialgupta/Flipr.git/static/js/2.ba7de0bf.chunk.js.map",
+    "static/js/3.576b81de.chunk.js": "/shashankofficialgupta/Flipr.git/static/js/3.576b81de.chunk.js",
+    "static/js/3.576b81de.chunk.js.map": "/shashankofficialgupta/Flipr.git/static/js/3.576b81de.chunk.js.map",
+    "index.html": "/shashankofficialgupta/Flipr.git/index.html",
+    "static/css/main.a434d7a9.chunk.css.map": "/shashankofficialgupta/Flipr.git/static/css/main.a434d7a9.chunk.css.map",
+    "static/js/2.ba7de0bf.chunk.js.LICENSE.txt": "/shashankofficialgupta/Flipr.git/static/js/2.ba7de0bf.chunk.js.LICENSE.txt",
+    "static/media/destination.5336278d.svg": "/shashankofficialgupta/Flipr.git/static/media/destination.5336278d.svg",
+    "static/media/logo.60097ea2.svg": "/shashankofficialgupta/Flipr.git/static/media/logo.60097ea2.svg",
+    "static/media/profile.2fbd2bc9.svg": "/shashankofficialgupta/Flipr.git/static/media/profile.2fbd2bc9.svg",
+    "static/media/warehouse.147c9c0b.svg": "/shashankofficialgupta/Flipr.git/static/media/warehouse.147c9c0b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31bc09a1.js",
+    "static/js/2.ba7de0bf.chunk.js",
+    "static/css/main.a434d7a9.chunk.css",
+    "static/js/main.c5cecd9d.chunk.js"
+  ]
+}
