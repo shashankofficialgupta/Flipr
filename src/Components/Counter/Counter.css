@@ -1,4 +1,4 @@
-div.counter_card {
+div.counterCard {
   width: 12rem;
   height: 12rem;
   background: #d5defd;
@@ -10,7 +10,7 @@ div.counter_card {
   font-size: 3rem;
   font-weight: 300;
 }
-div.counter_card.click{
+div.counterCard.click{
   background-color: #3b79fa;
   color: white;
 }
