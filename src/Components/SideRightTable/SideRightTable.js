@@ -6,13 +6,11 @@ import "./SideRightTable.css";
 const SideRightTable = (props) => {
   const [tempData, setTempData] = useState([]);
   const [selectedItemIndex, setSelectedItemIndex] = useState(0);
-  const [flag, setFlag] = useState(false);
   const handlePass = (awbno) => {
     let filterData = props.data.filter((data) => {
       return data.awbno === awbno;
     });
     setTempData(filterData);
-    setFlag(true);
   };
   return (
     <React.Fragment>
@@ -55,7 +53,7 @@ const SideRightTable = (props) => {
             ))}
         </tbody>
       </Table>
-      {flag && <SideLeftTable tempData={tempData[0]} />}
+      <SideLeftTable tempData={tempData[0]} />
     </React.Fragment>
   );
 };

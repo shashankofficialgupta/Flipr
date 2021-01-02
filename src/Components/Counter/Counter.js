@@ -75,7 +75,6 @@ class Counter extends Component {
               });
               break;
             default:
-              console.log("gh", i);
               break;
           }
         }
@@ -95,7 +94,7 @@ class Counter extends Component {
         <div className="counterBoard">
           <div
             className={
-              className === "DEL" ? "counter_card click" : "counter_card"
+              className === "DEL" ? "counterCard click" : "counterCard"
             }
             onClick={() => {
               this.handleFilter("DEL");
@@ -107,7 +106,7 @@ class Counter extends Component {
           </div>
           <div
             className={
-              className === "INT" ? "counter_card click" : "counter_card"
+              className === "INT" ? "counterCard click" : "counterCard"
             }
             onClick={() => {
               this.handleFilter("INT");
@@ -119,7 +118,7 @@ class Counter extends Component {
           </div>
           <div
             className={
-              className === "OOD" ? "counter_card click" : "counter_card"
+              className === "OOD" ? "counterCard click" : "counterCard"
             }
             onClick={() => {
               this.handleFilter("OOD");
@@ -131,7 +130,7 @@ class Counter extends Component {
           </div>
           <div
             className={
-              className === "DEX" ? "counter_card click" : "counter_card"
+              className === "DEX" ? "counterCard click" : "counterCard"
             }
             onClick={() => {
               this.handleFilter("DEX");
@@ -143,7 +142,7 @@ class Counter extends Component {
           </div>
           <div
             className={
-              className === "NFI" ? "counter_card click" : "counter_card"
+              className === "NFI" ? "counterCard click" : "counterCard"
             }
             onClick={() => {
               this.handleFilter("NFI");

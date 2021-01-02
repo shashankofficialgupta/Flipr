@@ -25,7 +25,7 @@ export default function Header() {
           </Nav.Link>
           <Nav.Link href="#" className="lastNavLink">
             <img src={ProfileLogo} alt="FliprProfile" className="FliprProfileLogoNav" />
-            <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <i className="fa fa-angle-down" aria-hidden="true"></i>
           </Nav.Link>
         </Nav>
       </Navbar>
