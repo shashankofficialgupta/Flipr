@@ -50,7 +50,7 @@ const SideRightTable = (props) => {
                   {data.extra_fields &&
                     data.extra_fields.expected_delivery_date.substring(0, 10)}
                 </td>
-                <td>{data.current_status}</td>
+                <td className="tableCurrentStatus">{data.current_status}</td>
               </tr>
             ))}
         </tbody>

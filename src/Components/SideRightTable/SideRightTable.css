@@ -1,11 +1,56 @@
 .table-responsive {
-  height: 50vh;
+  height: 68.6vh;
   float: right;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+  text-align: -webkit-center;
 }
 thead {
   text-align-last: center;
 }
 tr.active {
   background-color: grey;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  line-height: 3.428571;
+  border-top: 2px solid #ddd !important;
+}
+td.tableCurrentStatus {
+  color: green;
+}
+.table-responsive::-webkit-scrollbar {
+  height: auto;
+  width: 10px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #441ece;
+  border-radius: 10px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+table.table {
+  width: 1065px;
+}
+th {
+  color: lightgrey;
+}
+
+@media (max-width: 1660px) {
+  table.table {
+    width: 879px;
+  }
+  th.destination {
+    width: 1rem;
+  }
+  th.source {
+    width: 1rem;
+  }
 }
